@@ -26,13 +26,16 @@ aws configure
 Or set environment variables:
 
 AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY
+
 AWS_SECRET_ACCESS_KEY=YOUR_SECRET_KEY
+
 AWS_DEFAULT_REGION=ap-south-1
+
 Installation
 
 Clone the repository:
 
-git clone https://github.com/your-username/cloud-file-sharing-platform.git
+git clone https://github.com/bhaktii-17/cloud-file-sharing-platform.git
 cd cloud-file-sharing-platform
 
 Install dependencies:
