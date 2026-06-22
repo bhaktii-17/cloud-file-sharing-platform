@@ -1,0 +1,25 @@
+nohup: ignoring input
+/home/ec2-user/.local/lib/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [13370]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     103.173.206.154:59472 - "GET /delete/242024.%2027.28.31.33.%2017YCSE02_Software%20Project%20Management_1%20-%20Copy.pdf HTTP/1.1" 405 Method Not Allowed
+INFO:     103.173.206.154:58973 - "GET /delete/242024.%2027.28.31.33.%2017YCSE02_Software%20Project%20Management_1%20-%20Copy.pdf HTTP/1.1" 405 Method Not Allowed
+INFO:     103.173.206.154:62201 - "GET /docs HTTP/1.1" 200 OK
+INFO:     103.173.206.154:62201 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     103.173.206.154:52466 - "GET /docs HTTP/1.1" 200 OK
+INFO:     103.173.206.154:52466 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     103.173.206.154:49672 - "POST /upload HTTP/1.1" 200 OK
+INFO:     103.173.206.154:49672 - "POST /upload HTTP/1.1" 200 OK
+INFO:     103.173.206.154:63815 - "GET /files HTTP/1.1" 200 OK
+INFO:     103.173.206.154:54071 - "GET /files HTTP/1.1" 200 OK
+INFO:     103.173.206.154:58950 - "DELETE /delete/Bhakti%20%20Ravindra%20Shirsat.pdf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59282 - "GET /files HTTP/1.1" 200 OK
+INFO:     103.173.206.154:55159 - "DELETE /delete/242024.%2027.28.31.33.%2017YCSE02_Software%20Project%20Management_1%20-%20Copy.pdf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59558 - "GET /files HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13370]
